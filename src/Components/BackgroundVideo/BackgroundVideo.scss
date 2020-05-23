@@ -1,0 +1,9 @@
+@import "../../Styles/Variables.scss";
+
+.BackgroundVideo {
+    background: $DarkBackground;
+
+    .video {
+        opacity: 0.1;
+    }
+}

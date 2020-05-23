@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@600;800&family=Jost:wght@300;400;600;700&display=swap");
+nav {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+  font-family: "Baloo Paaji 2", cursive;
+  font-weight: 800; }
+
+nav .Flex {
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 9; }
+
+nav .Flex a {
+  cursor: pointer; }
+
+nav .Flex a img {
+  height: 35px;
+  width: 143px; }
+
+nav .Flex .iconMenu {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease-in-out; }
+
+nav .Flex .iconMenu::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 1px;
+  background: linear-gradient(120deg, #d931b0 0%, #5d51de 100%);
+  transition: all 0.3s ease-in-out; }
+
+nav .Flex .iconMenu::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0px;
+  height: 1px;
+  background: linear-gradient(120deg, #d931b0 0%, #5d51de 100%);
+  transition: all 0.3s ease-in-out; }
+
+nav .Flex .iconMenu:hover::before {
+  width: 100%; }
+
+nav .Flex .iconMenu:hover::after {
+  width: 100%; }
+
+nav .Flex .iconMenu span {
+  width: 40%;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  background: linear-gradient(120deg, #d931b0 0%, #5d51de 100%);
+  transition: all 0.3s cubic-bezier(0.25, 0.1, 0.28, 1.54);
+  transform-origin: left; }
+
+nav .Flex .iconMenu span:nth-child(1) {
+  transform: translate(-50%, -10px); }
+
+nav .Flex .iconMenu span:nth-child(2) {
+  transform: translate(-50%, 0px); }
+
+nav .Flex .iconMenu span:nth-child(3) {
+  transform: translate(-50%, 0px); }
+
+nav .Flex .iconMenu span:nth-child(4) {
+  transform: translate(-50%, 10px); }
+
+nav .Flex .iconMenu span.leftRotate {
+  width: 40%;
+  transform: rotate(45deg) translate(-50%, 0); }
+
+nav .Flex .iconMenu span.fadeIn {
+  opacity: 0; }
+
+nav .Flex .iconMenu span.fadeIn.top {
+  transform: translate(-30px, -30px);
+  width: 100%; }
+
+nav .Flex .iconMenu span.fadeIn.down {
+  transform: translate(-30px, 30px);
+  width: 100%; }
+
+nav .Flex .iconMenu span.rightRotate {
+  width: 40%;
+  transform: rotate(-45deg) translate(-50%, 0px); }
+
+nav .Flex .iconMenu div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0; }
+
+nav .Flex .iconMenu div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 0px;
+  background: linear-gradient(120deg, #d931b0 0%, #5d51de 100%);
+  transition: all 0.3s ease-in-out; }
+
+nav .Flex .iconMenu div::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 1px;
+  height: 0px;
+  background: linear-gradient(120deg, #d931b0 0%, #5d51de 100%);
+  transition: all 0.3s ease-in-out; }
+
+nav .Flex .iconMenu div:hover::before {
+  height: 100%; }
+
+nav .Flex .iconMenu div:hover::after {
+  height: 100%; }
+
+nav .navBar {
+  width: 100%;
+  height: 100%;
+  background: #181723;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0; }
+
+nav .navBar .links {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  height: 50vh;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 80px;
+  text-transform: uppercase; }
+
+nav .navBar .links a {
+  cursor: pointer;
+  color: #d931b0;
+  -webkit-text-fill-color: #181723;
+  -webkit-text-stroke-width: 1.5px;
+  transition: all 0.3s cubic-bezier(0.25, 0.1, 0.28, 1.54);
+  position: relative; }
+
+nav .navBar .links a::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 0px;
+  transition: all 0.8s cubic-bezier(0.25, 0.1, 0.28, 1.54);
+  overflow: hidden;
+  background: linear-gradient(-145deg, #ff0031 0%, #5d51de 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-stroke-color: transparent; }
+
+nav .navBar .links a:hover {
+  -webkit-text-stroke-width: 1.5px;
+  background: linear-gradient(-145deg, #ff0031 0%, #5d51de 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-stroke-color: transparent; }
+
+nav .navBar .links a:hover::before {
+  transition: all 0.8s cubic-bezier(0.25, 0.1, 0.28, 1.54);
+  -webkit-text-stroke-color: transparent;
+  height: 100%; }
+
+nav .navBar .links a.active {
+  background: linear-gradient(-145deg, #ff0031 0%, #5d51de 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: transparent; }

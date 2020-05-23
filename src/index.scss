@@ -1,0 +1,52 @@
+@import "./Styles/Variables.scss";
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  behavior: "smooth";
+}
+
+body {
+  margin: 0;
+  font-family: $Jost;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-overflow-style: none;
+  background: #f9f9f9;
+}
+
+a {
+  text-decoration: none;
+}
+
+video,
+img {
+  max-width: 100%;
+}
+
+section {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 63%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+}

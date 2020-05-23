@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@600;800&family=Jost:wght@300;400;600;700&display=swap");
+.skill {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+  .skill .title {
+    font-family: "Baloo Paaji 2", cursive;
+    font-size: 20px;
+    color: #5d51de;
+    width: 35%; }
+  .skill .text {
+    width: 63%;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Jost", sans-serif;
+    color: #a7a7a7; }

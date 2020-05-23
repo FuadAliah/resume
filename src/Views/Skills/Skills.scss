@@ -1,0 +1,19 @@
+@import "../../Styles/Variables.scss";
+
+.skills {
+    .data {
+        height: 60vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        color: $DarkGray;
+
+        .skillsList {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            height: 100%;
+        }
+    }
+}

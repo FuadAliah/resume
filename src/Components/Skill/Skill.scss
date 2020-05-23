@@ -1,0 +1,23 @@
+@import "../../Styles/Variables.scss";
+
+.skill {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+
+    .title{
+        font-family: $Baloo;
+        font-size: 20px;
+        color: $Blue;
+        width: 35%;
+    }
+
+    .text{
+        width: 63%;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: $Jost;
+        color: $Gray;
+    }
+}

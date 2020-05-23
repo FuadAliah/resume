@@ -1,0 +1,66 @@
+@import "../../Styles/Variables.scss";
+
+.work {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 40px 25px 0px;
+
+    .info {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+
+        .head {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 50px;
+
+            .position {
+                color: $Blue;
+                font-size: 24px;
+                font-weight: $Baloo600;
+                font-family: $Baloo;
+            }
+
+            .nameDate {
+                display: flex;
+                align-items: center;
+
+                .compName {
+                    color: $DarkGray;
+                    font-size: 18px;
+                    font-family: $Baloo;
+                }
+
+                .duration {
+                    color: $Gray;
+                    font-size: 16px;
+                    font-family: $Jost;
+                    font-weight: $Jost400;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+
+    .information {
+        ul {
+            margin-top: 10px;
+
+            li {
+                color: $Gray;
+                font-size: 16px;
+                font-family: $Jost;
+                display: flex;
+                line-height: 24px;
+
+                &::before {
+                    content: "- ";
+                    width: 12px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,84 @@
+@import "../../Styles/Variables.scss";
+
+.about {
+    .data {
+        height: 60vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+        .aboutMe {
+            font-family: $Jost;
+            font-weight: $Jost300;
+            font-size: 24px;
+            line-height: 36px;
+            margin: 0;
+            color: $DarkGray;
+
+            .bold {
+                font-weight: 700;
+            }
+        }
+
+        .personalInfo {
+            display: flex;
+            justify-content: space-between;
+            width: 50%;
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 50px;
+
+                .key {
+                    font-family: "Baloo Paaji 2", cursive;
+                }
+                .value {
+                    font-weight: 300;
+                }
+            }
+        }
+        .socials {
+            display: flex;
+            justify-content: space-between;
+            width: 30%;
+
+            a {
+                font-size: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: $Gray;
+                transition: all 0.4s ease-in-out;
+            }
+            .linkedin {
+                &:hover {
+                    color: #2867b2;
+                }
+            }
+            .facebook {
+                &:hover {
+                    color: #3b5998;
+                }
+            }
+            .github {
+                font-size: 36px;
+                &:hover {
+                    color: #24292e;
+                }
+            }
+            .instagram {
+                &:hover {
+                    color: #833ab4;
+                }
+            }
+            .dropbox {
+                &:hover {
+                    color: #0061ff;
+                }
+            }
+        }
+    }
+}

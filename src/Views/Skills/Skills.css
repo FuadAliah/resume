@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@600;800&family=Jost:wght@300;400;600;700&display=swap");
+.skills .data {
+  height: 60vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #444444; }
+  .skills .data .skillsList {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%; }

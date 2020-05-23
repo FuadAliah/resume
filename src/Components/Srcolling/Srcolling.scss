@@ -1,0 +1,39 @@
+@import "../../Styles/Variables.scss";
+
+
+.mouse {
+    width: 24px;
+    height: 38px;
+    border-radius: 19px;
+    border: 1.5px solid $Blue;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .overflow {
+        height: 8px;
+        overflow: hidden;
+        position: relative;
+        top: 8px;
+        display: flex;
+        justify-content: center;
+
+        .animate {
+            width: 2px;
+            height: 8px;
+            position: absolute;
+            background: $Blue;
+            animation: move 1.25s infinite cubic-bezier(0.46, 0.66, 0.57, 0.32);
+        }
+    }
+}
+
+@keyframes move {
+    0% {
+        top: -9px;
+    }
+    100% {
+        top: 9px;
+    }
+}

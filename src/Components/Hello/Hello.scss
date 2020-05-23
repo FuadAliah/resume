@@ -1,0 +1,58 @@
+@import "../../Styles/Variables.scss";
+
+.hello {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 63%;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $Pink;
+    height: 225px;
+    justify-content: space-between;
+
+    .hi {
+        font-weight: 600;
+        font-size: 24px;
+        margin: 0;
+    }
+    .name {
+        font-size: 40px;
+        margin: 0;
+        font-weight: $Jost700;
+        background: $TextGradient;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        width: fit-content;
+    }
+
+    a {
+        padding: 20px 62px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: fit-content;
+        background: $Gradient;
+        border-radius: 31px;
+        margin-top: 20px;
+        transition: all 0.3s cubic-bezier(0.25, 0.1, 0.28, 1.54);
+
+        &:hover {
+            background: $GradientRotate;
+            box-shadow: 0px 0px 0 3px darken($Pink, 30%);
+        }
+
+        span {
+            height: 14px;
+        }
+
+        svg {
+            font-size: 20px;
+            margin: 0 10px 0 0;
+        }
+    }
+}

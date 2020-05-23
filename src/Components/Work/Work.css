@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@600;800&family=Jost:wght@300;400;600;700&display=swap");
+.work {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 40px 25px 0px; }
+
+.work .info {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column; }
+
+.work .info .head {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50px; }
+
+.work .info .head .position {
+  color: #5d51de;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Baloo Paaji 2", cursive; }
+
+.work .info .head .nameDate {
+  display: flex;
+  align-items: center; }
+
+.work .info .head .nameDate .compName {
+  color: #444444;
+  font-size: 18px;
+  font-family: "Baloo Paaji 2", cursive; }
+
+.work .info .head .nameDate .duration {
+  color: #a7a7a7;
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  margin-left: 20px; }
+
+.work .information ul {
+  margin-top: 10px; }
+
+.work .information ul li {
+  color: #a7a7a7;
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  display: flex;
+  line-height: 24px; }
+
+.work .information ul li::before {
+  content: "- ";
+  width: 12px; }

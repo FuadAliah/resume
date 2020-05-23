@@ -1,0 +1,37 @@
+@import "../../Styles/Variables.scss";
+
+.top {
+    position: fixed;
+    bottom: -80px;
+    right: 40px;
+    box-sizing: unset;
+    transition: all 0.4s ease-in-out;
+
+    span {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1.3px solid $Blue;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all 0.4s ease-in-out;
+
+        svg {
+            font-size: 24px;
+            color: $Blue;
+        }
+
+        &:hover {
+            background: $GradientRotate;
+            svg {
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+.display {
+    bottom: 80px;
+}

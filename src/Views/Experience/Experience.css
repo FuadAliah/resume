@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@600;800&family=Jost:wght@300;400;600;700&display=swap");
+.experience {
+  position: relative;
+  height: auto;
+  overflow: visible;
+  min-height: 100vh; }
+
+.experience .container {
+  width: 85%;
+  display: unset;
+  padding-left: 7%;
+  margin-top: 60px; }
+
+.experience .container .data {
+  height: auto;
+  display: flex;
+  align-items: center; }
+
+.experience .container .data .works {
+  display: grid;
+  grid-template-columns: 50% 50%; }
