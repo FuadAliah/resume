@@ -60,7 +60,6 @@ class Experience extends Component {
             <section className='experience' id='Experience'>
                 <div className='container'>
                     <div className='data'>
-
                         <div className='works'>
                             <Work items={this.state.items} />
                         </div>

@@ -48,18 +48,14 @@
     .information {
         ul {
             margin-top: 10px;
+            list-style: decimal;
 
             li {
                 color: $Gray;
                 font-size: 16px;
                 font-family: $Jost;
-                display: flex;
+                list-style: decimal-leading-zero;
                 line-height: 24px;
-
-                &::before {
-                    content: "- ";
-                    width: 12px;
-                }
             }
         }
     }

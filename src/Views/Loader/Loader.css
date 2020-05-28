@@ -1,4 +1,38 @@
-@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@600;800&family=Jost:wght@300;400;600;700&display=swap");
+@font-face {
+  font-family: 'Baloo Paaji 2';
+  src: url("BalooPaaji2-SemiBold.eot");
+  src: url("BalooPaaji2-SemiBold.eot?#iefix") format("embedded-opentype"), url("BalooPaaji2-SemiBold.woff2") format("woff2"), url("BalooPaaji2-SemiBold.woff") format("woff"), url("BalooPaaji2-SemiBold.ttf") format("truetype"), url("BalooPaaji2-SemiBold.svg#BalooPaaji2-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Jost';
+  src: url("Jost-Regular.eot");
+  src: url("Jost-Regular.eot?#iefix") format("embedded-opentype"), url("Jost-Regular.woff2") format("woff2"), url("Jost-Regular.woff") format("woff"), url("Jost-Regular.ttf") format("truetype"), url("Jost-Regular.svg#Jost-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Jost';
+  src: url("Jost-Light.eot");
+  src: url("Jost-Light.eot?#iefix") format("embedded-opentype"), url("Jost-Light.woff2") format("woff2"), url("Jost-Light.woff") format("woff"), url("Jost-Light.ttf") format("truetype"), url("Jost-Light.svg#Jost-Light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Jost';
+  src: url("Jost-Bold.eot");
+  src: url("Jost-Bold.eot?#iefix") format("embedded-opentype"), url("Jost-Bold.woff2") format("woff2"), url("Jost-Bold.woff") format("woff"), url("Jost-Bold.ttf") format("truetype"), url("Jost-Bold.svg#Jost-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Baloo Paaji 2';
+  src: url("BalooPaaji2-ExtraBold.eot");
+  src: url("BalooPaaji2-ExtraBold.eot?#iefix") format("embedded-opentype"), url("BalooPaaji2-ExtraBold.woff2") format("woff2"), url("BalooPaaji2-ExtraBold.woff") format("woff"), url("BalooPaaji2-ExtraBold.ttf") format("truetype"), url("BalooPaaji2-ExtraBold.svg#BalooPaaji2-ExtraBold") format("svg");
+  font-weight: 800;
+  font-style: normal; }
+
 .loader {
   width: 100vw;
   height: 100vh;
@@ -7,54 +41,47 @@
   position: fixed;
   transform-origin: center;
   z-index: 99; }
-
-.loader.show::before {
-  content: "";
-  background: #fff;
-  width: 100%;
-  height: 50%;
-  position: absolute;
-  top: 0;
-  transition: all 0.5s ease-in-out; }
-
-.loader.show::after {
-  content: "";
-  background: #fff;
-  width: 100%;
-  height: 50%;
-  position: absolute;
-  bottom: 0;
-  transition: all 0.5s ease-in-out; }
-
-.loader.hide::before {
-  content: "";
-  background: #fff;
-  width: 100%;
-  height: 0;
-  position: absolute;
-  top: 0;
-  transition: all 0.5s ease-in-out;
-  transition-delay: 2s; }
-
-.loader.hide::after {
-  content: "";
-  background: #fff;
-  width: 100%;
-  height: 0;
-  position: absolute;
-  bottom: 0;
-  transition: all 0.5s ease-in-out;
-  transition-delay: 2s; }
-
-.loader .number {
-  font-size: 200px;
-  color: #d931b0;
-  font-weight: 300;
-  z-index: 1; }
-
-.loader .number.shown {
-  opacity: 1; }
-
-.loader .number.hidden {
-  opacity: 0;
-  transition: all 2s ease-in-out; }
+  .loader.show::before {
+    content: "";
+    background: #fff;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    transition: all 0.5s ease-in-out; }
+  .loader.show::after {
+    content: "";
+    background: #fff;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    transition: all 0.5s ease-in-out; }
+  .loader.hide::before {
+    content: "";
+    background: #fff;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    transition-delay: 2s; }
+  .loader.hide::after {
+    content: "";
+    background: #fff;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    transition: all 0.5s ease-in-out;
+    transition-delay: 2s; }
+  .loader .number {
+    font-size: 200px;
+    color: #d931b0;
+    font-weight: 300;
+    z-index: 1; }
+    .loader .number.shown {
+      opacity: 1; }
+    .loader .number.hidden {
+      opacity: 0;
+      transition: all 2s ease-in-out; }

@@ -1,10 +1,44 @@
-@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@600;800&family=Jost:wght@300;400;600;700&display=swap");
+@font-face {
+  font-family: 'Baloo Paaji 2';
+  src: url("BalooPaaji2-SemiBold.eot");
+  src: url("BalooPaaji2-SemiBold.eot?#iefix") format("embedded-opentype"), url("BalooPaaji2-SemiBold.woff2") format("woff2"), url("BalooPaaji2-SemiBold.woff") format("woff"), url("BalooPaaji2-SemiBold.ttf") format("truetype"), url("BalooPaaji2-SemiBold.svg#BalooPaaji2-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Jost';
+  src: url("Jost-Regular.eot");
+  src: url("Jost-Regular.eot?#iefix") format("embedded-opentype"), url("Jost-Regular.woff2") format("woff2"), url("Jost-Regular.woff") format("woff"), url("Jost-Regular.ttf") format("truetype"), url("Jost-Regular.svg#Jost-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Jost';
+  src: url("Jost-Light.eot");
+  src: url("Jost-Light.eot?#iefix") format("embedded-opentype"), url("Jost-Light.woff2") format("woff2"), url("Jost-Light.woff") format("woff"), url("Jost-Light.ttf") format("truetype"), url("Jost-Light.svg#Jost-Light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Jost';
+  src: url("Jost-Bold.eot");
+  src: url("Jost-Bold.eot?#iefix") format("embedded-opentype"), url("Jost-Bold.woff2") format("woff2"), url("Jost-Bold.woff") format("woff"), url("Jost-Bold.ttf") format("truetype"), url("Jost-Bold.svg#Jost-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Baloo Paaji 2';
+  src: url("BalooPaaji2-ExtraBold.eot");
+  src: url("BalooPaaji2-ExtraBold.eot?#iefix") format("embedded-opentype"), url("BalooPaaji2-ExtraBold.woff2") format("woff2"), url("BalooPaaji2-ExtraBold.woff") format("woff"), url("BalooPaaji2-ExtraBold.ttf") format("truetype"), url("BalooPaaji2-ExtraBold.svg#BalooPaaji2-ExtraBold") format("svg");
+  font-weight: 800;
+  font-style: normal; }
+
 .skill {
   width: 100%;
   display: flex;
   justify-content: space-between; }
   .skill .title {
-    font-family: "Baloo Paaji 2", cursive;
+    font-family: "Baloo Paaji 2";
     font-size: 20px;
     color: #5d51de;
     width: 35%; }
@@ -12,5 +46,5 @@
     width: 63%;
     font-size: 16px;
     line-height: 24px;
-    font-family: "Jost", sans-serif;
+    font-family: "Jost";
     color: #a7a7a7; }

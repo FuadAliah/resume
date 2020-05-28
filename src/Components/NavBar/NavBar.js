@@ -8,9 +8,8 @@ import './NavBar.scss';
 class NavBar extends Component {
 
     state = {
-        isOpened: false
+        isOpened: false,
     }
-
 
     handleClick = () => {
         this.setState({ isOpened: !this.state.isOpened });
@@ -79,10 +78,6 @@ class NavBar extends Component {
                                     transition={{ ease: "easeInOut", duration: 0.75, delay: 1 }}>
                                     <Link activeClass="active" data-text='Contacts' onClick={this.handleClick} hashSpy={true} spy={true} smooth={true} delay={1000} offset={0} duration={1500} to="Contacts">Contacts</Link>
                                 </motion.div>
-
-
-
-
 
                             </div>
                         </motion.div>

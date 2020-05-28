@@ -4,6 +4,7 @@ import Hello from '../../Components/Hello/Hello';
 import Srcolling from '../../Components/Srcolling/Srcolling';
 
 class Home extends Component {
+
     render() {
         return (
             <section className='home' id='Home'>
