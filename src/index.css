@@ -63,7 +63,8 @@ body {
 
 @media (max-width: 768px) {
   body {
-    overflow: unset; } }
+    overflow-x: hidden;
+    overflow-y: unset; } }
 
 a {
   text-decoration: none; }

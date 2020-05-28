@@ -18,7 +18,6 @@ html {
   @media (max-width: 768px) {
     overflow-x: hidden;
     overflow-y: unset;
-
   }
 }
 
@@ -33,7 +32,8 @@ body {
   behavior: "smooth";
 
   @media (max-width: 768px) {
-    overflow: unset
+    overflow-x: hidden;
+    overflow-y: unset;
   }
 }
 
