@@ -46,6 +46,10 @@ html {
   behavior: "smooth";
   overflow: hidden; }
 
+@media (max-width: 768px) {
+  html {
+    overflow: unset; } }
+
 body {
   margin: 0;
   font-family: "Jost";
@@ -55,6 +59,10 @@ body {
   background: #f9f9f9;
   overflow: hidden;
   behavior: "smooth"; }
+
+@media (max-width: 768px) {
+  body {
+    overflow: unset; } }
 
 a {
   text-decoration: none; }
