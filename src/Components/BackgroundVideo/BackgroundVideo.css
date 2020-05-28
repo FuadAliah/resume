@@ -35,5 +35,6 @@
 
 .BackgroundVideo {
   background: #030307; }
-  .BackgroundVideo .video {
-    opacity: 0.1; }
+
+.BackgroundVideo .video {
+  opacity: 0.1; }

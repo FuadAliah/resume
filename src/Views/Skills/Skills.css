@@ -40,8 +40,9 @@
   justify-content: space-between;
   flex-direction: column;
   color: #444444; }
-  .skills .data .skillsList {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 100%; }
+
+.skills .data .skillsList {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%; }

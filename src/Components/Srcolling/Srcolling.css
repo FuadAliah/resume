@@ -42,19 +42,21 @@
   bottom: 40px;
   left: 50%;
   transform: translateX(-50%); }
-  .mouse .overflow {
-    height: 8px;
-    overflow: hidden;
-    position: relative;
-    top: 8px;
-    display: flex;
-    justify-content: center; }
-    .mouse .overflow .animate {
-      width: 2px;
-      height: 8px;
-      position: absolute;
-      background: #5d51de;
-      animation: move 1.25s infinite cubic-bezier(0.46, 0.66, 0.57, 0.32); }
+
+.mouse .overflow {
+  height: 8px;
+  overflow: hidden;
+  position: relative;
+  top: 8px;
+  display: flex;
+  justify-content: center; }
+
+.mouse .overflow .animate {
+  width: 2px;
+  height: 8px;
+  position: absolute;
+  background: #5d51de;
+  animation: move 1.25s infinite cubic-bezier(0.46, 0.66, 0.57, 0.32); }
 
 @keyframes move {
   0% {

@@ -37,14 +37,16 @@
   width: 100%;
   display: flex;
   justify-content: space-between; }
-  .skill .title {
-    font-family: "Baloo Paaji 2";
-    font-size: 20px;
-    color: #5d51de;
-    width: 35%; }
-  .skill .text {
-    width: 63%;
-    font-size: 16px;
-    line-height: 24px;
-    font-family: "Jost";
-    color: #a7a7a7; }
+
+.skill .title {
+  font-family: "Baloo Paaji 2";
+  font-size: 20px;
+  color: #5d51de;
+  width: 35%; }
+
+.skill .text {
+  width: 63%;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Jost";
+  color: #a7a7a7; }

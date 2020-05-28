@@ -35,83 +35,103 @@
 
 .contacts {
   flex-direction: column; }
-  .contacts .container {
-    height: 93vh; }
-    .contacts .container .data {
-      height: 35vh;
-      overflow: hidden;
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column;
-      align-items: center; }
-      .contacts .container .data p {
-        font-family: "Jost";
-        font-size: 34px;
-        color: #444444;
-        line-height: 51px;
-        text-align: center;
-        font-weight: 700;
-        background: linear-gradient(-145deg, #ff0031 0%, #5d51de 100%);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        background-clip: text; }
-      .contacts .container .data ul {
-        width: 60%;
-        display: flex;
-        justify-content: space-between;
-        color: #a7a7a7;
-        font-size: 16px;
-        flex-direction: row; }
-        .contacts .container .data ul li {
-          display: flex;
-          align-items: center; }
-          .contacts .container .data ul li svg {
-            font-size: 20px;
-            margin: 0 10px 0 0; }
-          .contacts .container .data ul li a {
-            color: #a7a7a7; }
-            .contacts .container .data ul li a:hover {
-              color: #5d51de; }
-  .contacts .footer {
-    height: 7%;
-    display: flex;
-    align-items: center;
-    width: 100%; }
-    .contacts .footer .contain {
-      width: 96%;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between; }
-      .contacts .footer .contain p {
-        color: #a7a7a7;
-        font-size: 16px;
-        display: flex;
-        align-items: center; }
-        .contacts .footer .contain p svg {
-          font-size: 20px;
-          margin: 0 3px;
-          color: #d931b0; }
-      .contacts .footer .contain .socials {
-        display: flex;
-        justify-content: space-between;
-        width: 15%; }
-        .contacts .footer .contain .socials a {
-          font-size: 26px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          color: #a7a7a7;
-          transition: all 0.4s ease-in-out; }
-        .contacts .footer .contain .socials .linkedin:hover {
-          color: #2867b2; }
-        .contacts .footer .contain .socials .facebook:hover {
-          color: #3b5998; }
-        .contacts .footer .contain .socials .github {
-          font-size: 30px; }
-          .contacts .footer .contain .socials .github:hover {
-            color: #24292e; }
-        .contacts .footer .contain .socials .instagram:hover {
-          color: #833ab4; }
-        .contacts .footer .contain .socials .dropbox:hover {
-          color: #0061ff; }
+
+.contacts .container {
+  height: 93vh; }
+
+.contacts .container .data {
+  height: 35vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center; }
+
+.contacts .container .data p {
+  font-family: "Jost";
+  font-size: 34px;
+  color: #444444;
+  line-height: 51px;
+  text-align: center;
+  font-weight: 700;
+  background: linear-gradient(-145deg, #ff0031 0%, #5d51de 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text; }
+
+.contacts .container .data ul {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  color: #a7a7a7;
+  font-size: 16px;
+  flex-direction: row; }
+
+.contacts .container .data ul li {
+  display: flex;
+  align-items: center; }
+
+.contacts .container .data ul li svg {
+  font-size: 20px;
+  margin: 0 10px 0 0; }
+
+.contacts .container .data ul li a {
+  color: #a7a7a7; }
+
+.contacts .container .data ul li a:hover {
+  color: #5d51de; }
+
+.contacts .footer {
+  height: 7%;
+  display: flex;
+  align-items: center;
+  width: 100%; }
+
+.contacts .footer .contain {
+  width: 96%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.contacts .footer .contain p {
+  color: #a7a7a7;
+  font-size: 16px;
+  display: flex;
+  align-items: center; }
+
+.contacts .footer .contain p svg {
+  font-size: 20px;
+  margin: 0 3px;
+  color: #d931b0; }
+
+.contacts .footer .contain .socials {
+  display: flex;
+  justify-content: space-between;
+  width: 15%; }
+
+.contacts .footer .contain .socials a {
+  font-size: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a7a7a7;
+  transition: all 0.4s ease-in-out; }
+
+.contacts .footer .contain .socials .linkedin:hover {
+  color: #2867b2; }
+
+.contacts .footer .contain .socials .facebook:hover {
+  color: #3b5998; }
+
+.contacts .footer .contain .socials .github {
+  font-size: 30px; }
+
+.contacts .footer .contain .socials .github:hover {
+  color: #24292e; }
+
+.contacts .footer .contain .socials .instagram:hover {
+  color: #833ab4; }
+
+.contacts .footer .contain .socials .dropbox:hover {
+  color: #0061ff; }

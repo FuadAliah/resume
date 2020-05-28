@@ -41,47 +41,54 @@
   position: fixed;
   transform-origin: center;
   z-index: 99; }
-  .loader.show::before {
-    content: "";
-    background: #fff;
-    width: 100%;
-    height: 50%;
-    position: absolute;
-    top: 0;
-    transition: all 0.5s ease-in-out; }
-  .loader.show::after {
-    content: "";
-    background: #fff;
-    width: 100%;
-    height: 50%;
-    position: absolute;
-    bottom: 0;
-    transition: all 0.5s ease-in-out; }
-  .loader.hide::before {
-    content: "";
-    background: #fff;
-    width: 100%;
-    height: 0;
-    position: absolute;
-    top: 0;
-    transition: all 0.5s ease-in-out;
-    transition-delay: 2s; }
-  .loader.hide::after {
-    content: "";
-    background: #fff;
-    width: 100%;
-    height: 0;
-    position: absolute;
-    bottom: 0;
-    transition: all 0.5s ease-in-out;
-    transition-delay: 2s; }
-  .loader .number {
-    font-size: 200px;
-    color: #d931b0;
-    font-weight: 300;
-    z-index: 1; }
-    .loader .number.shown {
-      opacity: 1; }
-    .loader .number.hidden {
-      opacity: 0;
-      transition: all 2s ease-in-out; }
+
+.loader.show::before {
+  content: "";
+  background: #fff;
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 0;
+  transition: all 0.5s ease-in-out; }
+
+.loader.show::after {
+  content: "";
+  background: #fff;
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  transition: all 0.5s ease-in-out; }
+
+.loader.hide::before {
+  content: "";
+  background: #fff;
+  width: 100%;
+  height: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+  transition-delay: 2s; }
+
+.loader.hide::after {
+  content: "";
+  background: #fff;
+  width: 100%;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  transition: all 0.5s ease-in-out;
+  transition-delay: 2s; }
+
+.loader .number {
+  font-size: 200px;
+  color: #d931b0;
+  font-weight: 300;
+  z-index: 1; }
+
+.loader .number.shown {
+  opacity: 1; }
+
+.loader .number.hidden {
+  opacity: 0;
+  transition: all 2s ease-in-out; }
