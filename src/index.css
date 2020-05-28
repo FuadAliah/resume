@@ -48,7 +48,8 @@ html {
 
 @media (max-width: 768px) {
   html {
-    overflow: unset; } }
+    overflow-x: hidden;
+    overflow-y: unset; } }
 
 body {
   margin: 0;

@@ -16,7 +16,9 @@ html {
   overflow: hidden;
 
   @media (max-width: 768px) {
-    overflow: unset
+    overflow-x: hidden;
+    overflow-y: unset;
+
   }
 }
 
@@ -29,7 +31,7 @@ body {
   background: #f9f9f9;
   overflow: hidden;
   behavior: "smooth";
-  
+
   @media (max-width: 768px) {
     overflow: unset
   }
