@@ -38,7 +38,7 @@ class About extends Component {
 
                         <div className='socials'>
                             <a href='#cs' className='linkedin' target='_blank'><TiSocialLinkedin /></a>
-                            <a href='#cs' className='facebook' target='_blank'><TiSocialFacebook /></a>
+                            <a href='#https://facebook.com/fuad.aliah' className='facebook' target='_blank'><TiSocialFacebook /></a>
                             <a href='#cs' className='github' target='_blank'><TiSocialGithub /></a>
                             <a href='#cs' className='instagram' target='_blank'><TiSocialInstagram /></a>
                             <a href='#cs' className='dropbox' target='_blank'><TiDropbox /></a>
