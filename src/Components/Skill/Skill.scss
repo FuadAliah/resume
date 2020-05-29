@@ -5,19 +5,34 @@
     display: flex;
     justify-content: space-between;
 
+    @media (max-width: 768px) {
+        height: auto;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
 
-    .title{
+    .title {
         font-family: $Baloo;
         font-size: 20px;
         color: $Blue;
         width: 35%;
+
+        @media (max-width: 768px) {
+            font-size: 18px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
     }
 
-    .text{
+    .text {
         width: 63%;
         font-size: 16px;
         line-height: 24px;
         font-family: $Jost;
         color: $Gray;
+
+        @media (max-width: 768px) {
+            width: 100%;
+        }
     }
 }

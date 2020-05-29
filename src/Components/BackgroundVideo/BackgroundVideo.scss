@@ -3,7 +3,17 @@
 .BackgroundVideo {
     background: $DarkBackground;
 
+    @media (max-width: 768px) {
+        height: 100vh;
+        display: flex;
+    }
+
     .video {
         opacity: 0.1;
+
+        @media (max-width: 768px) {
+            opacity: 0.3;
+            object-fit: cover;
+        }
     }
 }

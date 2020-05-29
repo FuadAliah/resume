@@ -1,13 +1,24 @@
 @import "../../Styles/Variables.scss";
 
 .skills {
+    @media (max-width: 768px) {
+        overflow: visible;
+        height: auto;
+    }
     .data {
         height: 60vh;
         overflow: hidden;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         flex-direction: column;
         color: $DarkGray;
+
+        @media (max-width: 768px) {
+            height: auto;
+            overflow: visible;
+            margin-top: 100px;
+        }
 
         .skillsList {
             display: flex;

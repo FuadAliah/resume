@@ -37,11 +37,11 @@ class About extends Component {
                         </div>
 
                         <div className='socials'>
-                            <a href='#cs' className='linkedin' target='_blank'><TiSocialLinkedin /></a>
-                            <a href='#https://facebook.com/fuad.aliah' className='facebook' target='_blank'><TiSocialFacebook /></a>
-                            <a href='#cs' className='github' target='_blank'><TiSocialGithub /></a>
-                            <a href='#cs' className='instagram' target='_blank'><TiSocialInstagram /></a>
-                            <a href='#cs' className='dropbox' target='_blank'><TiDropbox /></a>
+                            <a href='https://www.linkedin.com/in/fuadaliah' className='linkedin'><TiSocialLinkedin /></a>
+                            <a href='https://facebook.com/fuad.aliah' className='facebook'><TiSocialFacebook /></a>
+                            <a href='https://github.com/FuadAliah' className='github'><TiSocialGithub /></a>
+                            <a href='https://www.instagram.com/fuadaliah/' className='instagram'><TiSocialInstagram /></a>
+                            <a href='https://www.dropbox.com/sh/6nt1p4vrw21xvfz/AAA4F2aOLjSCNQP5ucMDC7WRa?dl=0' className='dropbox'><TiDropbox /></a>
                         </div>
                     </div>
 

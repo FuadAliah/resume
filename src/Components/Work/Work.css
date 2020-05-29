@@ -38,6 +38,10 @@
   justify-content: space-between;
   padding: 25px 40px 25px 0px; }
 
+@media (max-width: 768px) {
+  .work {
+    padding: 25px 0px 25px 0px; } }
+
 .work .info {
   width: 90%;
   height: auto;
@@ -50,11 +54,21 @@
   justify-content: space-between;
   height: 50px; }
 
+@media (max-width: 768px) {
+  .work .info .head {
+    height: auto;
+    max-height: 80px; } }
+
 .work .info .head .position {
   color: #5d51de;
   font-size: 24px;
   font-weight: 600;
   font-family: "Baloo Paaji 2"; }
+
+@media (max-width: 768px) {
+  .work .info .head .position {
+    font-size: 22px;
+    margin-bottom: 8px; } }
 
 .work .info .head .nameDate {
   display: flex;

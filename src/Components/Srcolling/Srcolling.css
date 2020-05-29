@@ -43,6 +43,10 @@
   left: 50%;
   transform: translateX(-50%); }
 
+@media (max-width: 768px) {
+  .mouse {
+    display: none; } }
+
 .mouse .overflow {
   height: 8px;
   overflow: hidden;

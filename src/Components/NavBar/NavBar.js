@@ -9,6 +9,22 @@ class NavBar extends Component {
 
     state = {
         isOpened: false,
+        position: false
+    }
+
+    componentDidMount() {
+        window.addEventListener('scroll', () => {
+            const Position = window.scrollY > window.innerHeight
+            if (Position !== true) {
+                this.setState({
+                    position: false
+                })
+            } else {
+                this.setState({
+                    position: true
+                })
+            }
+        })
     }
 
     handleClick = () => {
@@ -17,7 +33,7 @@ class NavBar extends Component {
 
     render() {
         return (
-            <nav>
+            <nav className={this.state.position ? 'add' : null}>
                 <div className='Flex'>
                     <Link to="Home" hashSpy={true} spy={true} smooth={true} duration={1500} offset={0}><img src={Logo} alt='Logo' /></Link>
                     <div onClick={this.handleClick} className='iconMenu'>

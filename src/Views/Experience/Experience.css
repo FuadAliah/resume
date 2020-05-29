@@ -53,3 +53,7 @@
 .experience .container .data .works {
   display: grid;
   grid-template-columns: 50% 50%; }
+
+@media (max-width: 768px) {
+  .experience .container .data .works {
+    grid-template-columns: 100%; } }

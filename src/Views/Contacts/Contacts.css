@@ -39,6 +39,10 @@
 .contacts .container {
   height: 93vh; }
 
+@media (max-width: 768px) {
+  .contacts .container {
+    height: 90vh; } }
+
 .contacts .container .data {
   height: 35vh;
   overflow: hidden;
@@ -46,6 +50,11 @@
   justify-content: space-between;
   flex-direction: column;
   align-items: center; }
+
+@media (max-width: 768px) {
+  .contacts .container .data {
+    height: 55vh;
+    overflow: unset; } }
 
 .contacts .container .data p {
   font-family: "Jost";
@@ -59,6 +68,12 @@
   -webkit-background-clip: text;
   background-clip: text; }
 
+@media (max-width: 768px) {
+  .contacts .container .data p {
+    font-size: 26px;
+    line-height: 36px;
+    text-align: left; } }
+
 .contacts .container .data ul {
   width: 60%;
   display: flex;
@@ -67,9 +82,20 @@
   font-size: 16px;
   flex-direction: row; }
 
+@media (max-width: 768px) {
+  .contacts .container .data ul {
+    width: 100%;
+    flex-direction: column;
+    height: 80px;
+    text-align: left; } }
+
 .contacts .container .data ul li {
   display: flex;
   align-items: center; }
+
+@media (max-width: 768px) {
+  .contacts .container .data ul li {
+    align-items: start; } }
 
 .contacts .container .data ul li svg {
   font-size: 20px;
@@ -87,12 +113,23 @@
   align-items: center;
   width: 100%; }
 
+@media (max-width: 768px) {
+  .contacts .footer {
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between; } }
+
 .contacts .footer .contain {
   width: 96%;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between; }
+
+@media (max-width: 768px) {
+  .contacts .footer .contain {
+    flex-direction: column;
+    height: 60px; } }
 
 .contacts .footer .contain p {
   color: #a7a7a7;
@@ -109,6 +146,10 @@
   display: flex;
   justify-content: space-between;
   width: 15%; }
+
+@media (max-width: 768px) {
+  .contacts .footer .contain .socials {
+    width: 90%; } }
 
 .contacts .footer .contain .socials a {
   font-size: 26px;

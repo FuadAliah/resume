@@ -1,6 +1,5 @@
 @import "../../Styles/Variables.scss";
 
-
 .mouse {
     width: 24px;
     height: 38px;
@@ -10,6 +9,10 @@
     bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 
     .overflow {
         height: 8px;

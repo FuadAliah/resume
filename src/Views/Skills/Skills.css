@@ -33,13 +33,25 @@
   font-weight: 800;
   font-style: normal; }
 
+@media (max-width: 768px) {
+  .skills {
+    overflow: visible;
+    height: auto; } }
+
 .skills .data {
   height: 60vh;
   overflow: hidden;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-direction: column;
   color: #444444; }
+
+@media (max-width: 768px) {
+  .skills .data {
+    height: auto;
+    overflow: visible;
+    margin-top: 100px; } }
 
 .skills .data .skillsList {
   display: flex;

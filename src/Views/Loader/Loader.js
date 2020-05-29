@@ -3,14 +3,12 @@ import CountUp from 'react-countup';
 
 import './Loader.scss'
 
-
 class Loader extends Component {
 
     state = {
         end: 0,
         hide: false
     }
-
 
     componentDidMount = () => {
         this.setState({

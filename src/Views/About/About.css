@@ -41,12 +41,21 @@
   flex-direction: column;
   color: #444444; }
 
+@media (max-width: 768px) {
+  .about .data {
+    height: 75vh; } }
+
 .about .data .aboutMe {
   font-family: "Jost";
   font-weight: 300;
   font-size: 24px;
   line-height: 36px;
   margin: 0; }
+
+@media (max-width: 768px) {
+  .about .data .aboutMe {
+    font-size: 17px;
+    line-height: 27px; } }
 
 .about .data .aboutMe .bold {
   font-weight: 700; }
@@ -56,11 +65,20 @@
   justify-content: space-between;
   width: 50%; }
 
+@media (max-width: 768px) {
+  .about .data .personalInfo {
+    flex-direction: column; } }
+
 .about .data .personalInfo .info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 50px; }
+
+@media (max-width: 768px) {
+  .about .data .personalInfo .info {
+    height: 40px;
+    margin: 15px 0; } }
 
 .about .data .personalInfo .info .key {
   font-family: "Baloo Paaji 2", cursive; }
@@ -72,6 +90,10 @@
   display: flex;
   justify-content: space-between;
   width: 30%; }
+
+@media (max-width: 768px) {
+  .about .data .socials {
+    width: 100%; } }
 
 .about .data .socials a {
   font-size: 30px;

@@ -44,6 +44,17 @@ nav {
   font-family: "Baloo Paaji 2";
   font-weight: 800; }
 
+@media (max-width: 768px) {
+  nav {
+    height: 60px;
+    padding-left: 10px;
+    transition: all 0.2s ease-in-out; }
+  nav.add {
+    background: #f9f9f9;
+    -webkit-box-shadow: 0px 1px 10px -8px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 1px 10px -8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 1px 10px -8px rgba(0, 0, 0, 0.5); } }
+
 nav .Flex {
   width: 96%;
   display: flex;
@@ -76,6 +87,10 @@ nav .Flex .iconMenu::before {
   background: linear-gradient(120deg, #d931b0 0%, #5d51de 100%);
   transition: all 0.3s ease-in-out; }
 
+@media (max-width: 768px) {
+  nav .Flex .iconMenu::before {
+    display: none; } }
+
 nav .Flex .iconMenu::after {
   content: "";
   position: absolute;
@@ -85,6 +100,10 @@ nav .Flex .iconMenu::after {
   height: 1px;
   background: linear-gradient(120deg, #d931b0 0%, #5d51de 100%);
   transition: all 0.3s ease-in-out; }
+
+@media (max-width: 768px) {
+  nav .Flex .iconMenu::after {
+    display: none; } }
 
 nav .Flex .iconMenu:hover::before {
   width: 100%; }
@@ -141,6 +160,10 @@ nav .Flex .iconMenu div {
   top: 0;
   left: 0; }
 
+@media (max-width: 768px) {
+  nav .Flex .iconMenu div {
+    display: none; } }
+
 nav .Flex .iconMenu div::before {
   content: "";
   position: absolute;
@@ -188,6 +211,10 @@ nav .navBar .links {
   font-size: 80px;
   text-transform: uppercase; }
 
+@media (max-width: 768px) {
+  nav .navBar .links {
+    font-size: 50px; } }
+
 nav .navBar .links a {
   cursor: pointer;
   color: #d931b0;
@@ -195,6 +222,10 @@ nav .navBar .links a {
   -webkit-text-stroke-width: 1.5px;
   transition: all 0.3s cubic-bezier(0.25, 0.1, 0.28, 1.54);
   position: relative; }
+
+@media (max-width: 768px) {
+  nav .navBar .links a {
+    -webkit-text-stroke-width: 1px; } }
 
 nav .navBar .links a::before {
   content: attr(data-text);

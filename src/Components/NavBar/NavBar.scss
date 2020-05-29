@@ -11,6 +11,19 @@ nav {
     font-family: $Baloo;
     font-weight: $Baloo800;
 
+    @media (max-width: 768px) {
+        height: 60px;
+        padding-left: 10px;
+        transition: all 0.2s ease-in-out;
+
+        &.add {
+            background: #f9f9f9;
+            -webkit-box-shadow: 0px 1px 10px -8px rgba(0, 0, 0, 0.5);
+            -moz-box-shadow: 0px 1px 10px -8px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 1px 10px -8px rgba(0, 0, 0, 0.5);
+        }
+    }
+
     .Flex {
         width: 96%;
         display: flex;
@@ -44,6 +57,10 @@ nav {
                 height: 1px;
                 background: $GradientRotate;
                 transition: all 0.3s ease-in-out;
+
+                @media (max-width: 768px) {
+                    display: none;
+                }
             }
             &::after {
                 content: "";
@@ -54,6 +71,10 @@ nav {
                 height: 1px;
                 background: $GradientRotate;
                 transition: all 0.3s ease-in-out;
+
+                @media (max-width: 768px) {
+                    display: none;
+                }
             }
             &:hover {
                 &::before {
@@ -115,6 +136,10 @@ nav {
                 top: 0;
                 left: 0;
 
+                @media (max-width: 768px) {
+                    display: none;
+                }
+
                 &::before {
                     content: "";
                     position: absolute;
@@ -168,6 +193,10 @@ nav {
             font-size: 80px;
             text-transform: uppercase;
 
+            @media (max-width: 768px) {
+                font-size: 50px;
+            }
+
             a {
                 cursor: pointer;
                 color: $Pink;
@@ -175,6 +204,10 @@ nav {
                 -webkit-text-stroke-width: 1.5px;
                 transition: all 0.3s cubic-bezier(0.25, 0.1, 0.28, 1.54);
                 position: relative;
+
+                @media (max-width: 768px) {
+                    -webkit-text-stroke-width: 1px;
+                }
 
                 &::before {
                     content: attr(data-text);

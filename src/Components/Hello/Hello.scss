@@ -13,6 +13,13 @@
     height: 225px;
     justify-content: space-between;
 
+    @media (max-width: 768px) {
+        width: 80%;
+        height: 380px;
+        text-align: center;
+        align-items: center;
+    }
+
     .hi {
         font-weight: $Jost400;
         font-size: 24px;
@@ -27,6 +34,12 @@
         -webkit-background-clip: text;
         background-clip: text;
         width: fit-content;
+
+        @media (max-width: 768px) {
+            font-size: 34px;
+            height: auto;
+            margin: auto;
+        }
     }
 
     a {
@@ -40,6 +53,11 @@
         border-radius: 31px;
         margin-top: 20px;
         transition: all 0.3s cubic-bezier(0.25, 0.1, 0.28, 1.54);
+
+        @media (max-width: 768px) {
+            align-items: center;
+            margin-top: 60px;
+        }
 
         &:hover {
             background: $GradientRotate;
