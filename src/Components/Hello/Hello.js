@@ -23,7 +23,7 @@ class Hello extends Component {
                     />
                 </p>
                 <p className='hi'>And I just might be available for your next project...</p>
-                <a href='#cd' className='download'>
+                <a href='https://drive.google.com/file/d/1R-4d78mQ73JTYhX7CtPWwlrNReDWUeMp/view' target="_blank" rel="noopener noreferrer" className='download'>
                     <TiDownloadOutline />
                     <span>Download CV</span>
                 </a>

@@ -26,11 +26,11 @@ const Contacts = () => {
             <div className='footer'>
                 <div className='contain'>
                     <div className='socials'>
-                    <a href='https://www.linkedin.com/in/fuadaliah' className='linkedin'><TiSocialLinkedin /></a>
-                            <a href='https://facebook.com/fuad.aliah' className='facebook'><TiSocialFacebook /></a>
-                            <a href='https://github.com/FuadAliah' className='github'><TiSocialGithub /></a>
-                            <a href='https://www.instagram.com/fuadaliah/' className='instagram'><TiSocialInstagram /></a>
-                            <a href='https://www.dropbox.com/sh/6nt1p4vrw21xvfz/AAA4F2aOLjSCNQP5ucMDC7WRa?dl=0' className='dropbox'><TiDropbox /></a>
+                        <a href='https://www.linkedin.com/in/fuadaliah' target="_blank" rel="noopener noreferrer" className='linkedin'><TiSocialLinkedin /></a>
+                        <a href='https://facebook.com/fuad.aliah' target="_blank" rel="noopener noreferrer" className='facebook'><TiSocialFacebook /></a>
+                        <a href='https://github.com/FuadAliah' target="_blank" rel="noopener noreferrer" className='github'><TiSocialGithub /></a>
+                        <a href='https://www.instagram.com/fuadaliah/' target="_blank" rel="noopener noreferrer" className='instagram'><TiSocialInstagram /></a>
+                        <a href='https://www.dropbox.com/sh/781fz87z6d6qbmi/AACLXqbH0yr7FtSvl6v-BPJKa?dl=0' target="_blank" rel="noopener noreferrer" className='dropbox'><TiDropbox /></a>
                     </div>
                     <p>Made with <TiHeart /> By Fuad Aliah &copy; 2020</p>
                 </div>

@@ -12,8 +12,7 @@ class Index extends Component {
         window.addEventListener('wheel', function (e) {
             if (e.deltaY > 0) {
                 window.scrollTo({
-                    top: window.pageYOffset + window.innerHeight,
-                    behavior: 'smooth'
+                    top: window.pageYOffset + window.innerHeight, behavior: 'smooth'
                 })
             } else {
                 window.scrollTo({

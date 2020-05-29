@@ -86,6 +86,10 @@
   font-weight: 300;
   z-index: 1; }
 
+@media (max-width: 768px) {
+  .loader .number {
+    font-size: 80px; } }
+
 .loader .number.shown {
   opacity: 1; }
 

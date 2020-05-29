@@ -59,6 +59,10 @@
         font-weight: $Jost300;
         z-index: 1;
 
+        @media (max-width: 768px) {
+            font-size: 100px;
+        }
+
         &.shown {
             opacity: 1;
         }
