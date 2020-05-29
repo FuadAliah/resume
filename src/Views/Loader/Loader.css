@@ -88,7 +88,7 @@
 
 @media (max-width: 768px) {
   .loader .number {
-    font-size: 80px; } }
+    font-size: 100px; } }
 
 .loader .number.shown {
   opacity: 1; }
