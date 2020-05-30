@@ -8,7 +8,6 @@ import Contacts from './Contacts/Contacts';
 class Index extends Component {
 
     componentDidMount() {
-
         window.addEventListener('wheel', function (e) {
             if (e.deltaY > 0) {
                 window.scrollTo({

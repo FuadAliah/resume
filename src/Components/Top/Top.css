@@ -39,31 +39,26 @@
   right: 40px;
   box-sizing: unset;
   transition: all 0.4s ease-in-out; }
-
-@media (max-width: 768px) {
-  .top {
-    display: none; } }
-
-.top span {
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1.3px solid #5d51de;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: all 0.4s ease-in-out; }
-
-.top span svg {
-  font-size: 24px;
-  color: #5d51de; }
-
-.top span:hover {
-  background: linear-gradient(120deg, #d931b0 0%, #5d51de 100%); }
-
-.top span:hover svg {
-  color: #ffffff; }
+  @media (max-width: 768px) {
+    .top {
+      display: none; } }
+  .top span {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.3px solid #5d51de;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out; }
+    .top span svg {
+      font-size: 24px;
+      color: #5d51de; }
+    .top span:hover {
+      background: linear-gradient(120deg, #d931b0 0%, #5d51de 100%); }
+      .top span:hover svg {
+        color: #ffffff; }
 
 .display {
   bottom: 80px; }

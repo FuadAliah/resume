@@ -45,59 +45,50 @@
   color: #d931b0;
   height: 225px;
   justify-content: space-between; }
-
-@media (max-width: 768px) {
-  .hello {
-    width: 80%;
-    height: 380px;
-    text-align: center;
-    align-items: center; } }
-
-.hello .hi {
-  font-weight: 400;
-  font-size: 24px;
-  margin: 0; }
-
-.hello .name {
-  font-size: 40px;
-  margin: 0;
-  font-weight: 700;
-  background: linear-gradient(-145deg, #ff0031 0%, #5d51de 100%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  width: fit-content; }
-
-@media (max-width: 768px) {
+  @media (max-width: 768px) {
+    .hello {
+      width: 80%;
+      height: 380px;
+      text-align: center;
+      align-items: center; } }
+  .hello .hi {
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0; }
   .hello .name {
-    font-size: 34px;
-    height: auto;
-    margin: auto; } }
-
-.hello a {
-  padding: 20px 62px;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: fit-content;
-  background: linear-gradient(-120deg, #d931b0 0%, #5d51de 100%);
-  border-radius: 31px;
-  margin-top: 20px;
-  transition: all 0.3s cubic-bezier(0.25, 0.1, 0.28, 1.54); }
-
-@media (max-width: 768px) {
+    font-size: 40px;
+    margin: 0;
+    font-weight: 700;
+    background: linear-gradient(-145deg, #ff0031 0%, #5d51de 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: fit-content; }
+    @media (max-width: 768px) {
+      .hello .name {
+        font-size: 34px;
+        height: auto;
+        margin: auto; } }
   .hello a {
+    padding: 20px 62px;
+    color: #fff;
+    display: flex;
     align-items: center;
-    margin-top: 60px; } }
-
-.hello a:hover {
-  background: linear-gradient(120deg, #d931b0 0%, #5d51de 100%);
-  box-shadow: 0px 0px 0 3px #5f124c; }
-
-.hello a span {
-  height: 14px; }
-
-.hello a svg {
-  font-size: 20px;
-  margin: 0 10px 0 0; }
+    justify-content: space-between;
+    width: fit-content;
+    background: linear-gradient(-120deg, #d931b0 0%, #5d51de 100%);
+    border-radius: 31px;
+    margin-top: 20px;
+    transition: all 0.3s cubic-bezier(0.25, 0.1, 0.28, 1.54); }
+    @media (max-width: 768px) {
+      .hello a {
+        align-items: center;
+        margin-top: 60px; } }
+    .hello a:hover {
+      background: linear-gradient(120deg, #d931b0 0%, #5d51de 100%);
+      box-shadow: 0px 0px 0 3px #5f124c; }
+    .hello a span {
+      height: 14px; }
+    .hello a svg {
+      font-size: 20px;
+      margin: 0 10px 0 0; }
