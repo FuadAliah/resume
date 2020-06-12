@@ -8,7 +8,7 @@ class Experience extends Component {
     state = {
         items: [
             {
-                id: 1, company: 'iHorizons', date: 'SEP. 2019 - present', position: 'UX/UI DESIGNER & FRONT-END DEVELOPER',
+                id: 1, company: 'iHorizons', date: 'SEP. 2019 - APR. 2020', position: 'UX/UI DESIGNER & FRONT-END DEVELOPER',
                 info: [
                     { id: 1, text: 'Take a user-centered design approach and rapidly test and iterate your designs.' },
                     { id: 2, text: 'Turning mockups into HTML5, SASS & JQuery.' },
