@@ -37,27 +37,32 @@
   width: 100%;
   display: flex;
   justify-content: space-between; }
-  @media (max-width: 768px) {
-    .skill {
-      height: auto;
-      flex-direction: column;
-      margin-bottom: 15px; } }
+
+@media (max-width: 768px) {
+  .skill {
+    height: auto;
+    flex-direction: column;
+    margin-bottom: 15px; } }
+
+.skill .title {
+  font-family: "Baloo Paaji 2";
+  font-size: 20px;
+  color: #5d51de;
+  width: 35%; }
+
+@media (max-width: 768px) {
   .skill .title {
-    font-family: "Baloo Paaji 2";
-    font-size: 20px;
-    color: #5d51de;
-    width: 35%; }
-    @media (max-width: 768px) {
-      .skill .title {
-        font-size: 18px;
-        width: 100%;
-        margin-bottom: 10px; } }
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 10px; } }
+
+.skill .text {
+  width: 63%;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Jost";
+  color: #a7a7a7; }
+
+@media (max-width: 768px) {
   .skill .text {
-    width: 63%;
-    font-size: 16px;
-    line-height: 24px;
-    font-family: "Jost";
-    color: #a7a7a7; }
-    @media (max-width: 768px) {
-      .skill .text {
-        width: 100%; } }
+    width: 100%; } }

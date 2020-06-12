@@ -7,7 +7,7 @@ import './Hello.scss';
 const Hello = () => {
     return (
         <div className='hello'>
-            <p className='hi'>Hello, I'm</p>
+            <p className='hi'>Hello, I am</p>
             <p className='name'>
                 Fuad Aliah, and I'm a {' '}
                 <Typical

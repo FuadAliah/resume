@@ -45,10 +45,11 @@
 html {
   behavior: "smooth";
   overflow: hidden; }
-  @media (max-width: 768px) {
-    html {
-      overflow-x: hidden;
-      overflow-y: unset; } }
+
+@media (max-width: 768px) {
+  html {
+    overflow-x: hidden;
+    overflow-y: unset; } }
 
 body {
   margin: 0;
@@ -59,10 +60,11 @@ body {
   background: #f9f9f9;
   overflow: hidden;
   behavior: "smooth"; }
-  @media (max-width: 768px) {
-    body {
-      overflow-x: hidden;
-      overflow-y: unset; } }
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: unset; } }
 
 a {
   text-decoration: none; }
@@ -82,9 +84,10 @@ section {
   margin: 0 auto;
   display: flex;
   align-items: center; }
-  @media (max-width: 768px) {
-    .container {
-      width: 90%; } }
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%; } }
 
 p {
   margin: 0; }

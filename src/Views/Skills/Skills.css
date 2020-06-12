@@ -46,13 +46,15 @@
   align-items: center;
   flex-direction: column;
   color: #444444; }
-  @media (max-width: 768px) {
-    .skills .data {
-      height: auto;
-      overflow: visible;
-      margin-top: 100px; } }
-  .skills .data .skillsList {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 100%; }
+
+@media (max-width: 768px) {
+  .skills .data {
+    height: auto;
+    overflow: visible;
+    margin-top: 100px; } }
+
+.skills .data .skillsList {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%; }
