@@ -1,0 +1,55 @@
+@import "../../Styles/Variables.scss";
+
+.project-card {
+  font-family: $Baloo;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(#000, 0.06);
+
+  .head-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .project-name {
+      font-size: 1.75rem;
+      font-weight: $Baloo800;
+      text-transform: capitalize;
+      color: $Blue;
+    }
+
+    .project-description {
+      font-size: 1.125rem;
+      color: $Gray;
+      font-family: $Jost;
+      font-weight: $Jost300;
+    }
+  }
+  .footer-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #eee;
+    padding: 10px 0px;
+    margin: 30px 0px -20px;
+
+    .github {
+      display: flex;
+      align-items: center;
+      font-size: 30px;
+      color: $Gray;
+      transition: all 0.4s ease-in-out;
+
+      &:hover {
+        color: #24292e;
+      }
+    }
+    .preview {
+      font-size: 0.875rem;
+      color: $Blue;
+    }
+  }
+}

@@ -35,16 +35,13 @@
 
 .BackgroundVideo {
   background: #030307; }
-
-@media (max-width: 768px) {
-  .BackgroundVideo {
-    height: 100vh;
-    display: flex; } }
-
-.BackgroundVideo .video {
-  opacity: 0.1; }
-
-@media (max-width: 768px) {
+  @media (max-width: 768px) {
+    .BackgroundVideo {
+      height: 100vh;
+      display: flex; } }
   .BackgroundVideo .video {
-    opacity: 0.3;
-    object-fit: cover; } }
+    opacity: 0.1; }
+    @media (max-width: 768px) {
+      .BackgroundVideo .video {
+        opacity: 0.3;
+        object-fit: cover; } }

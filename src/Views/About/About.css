@@ -40,83 +40,64 @@
   justify-content: space-between;
   flex-direction: column;
   color: #444444; }
-
-@media (max-width: 768px) {
-  .about .data {
-    height: 75vh; } }
-
-.about .data .aboutMe {
-  font-family: "Jost";
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 36px;
-  margin: 0; }
-
-@media (max-width: 768px) {
+  @media (max-width: 768px) {
+    .about .data {
+      height: 75vh; } }
   .about .data .aboutMe {
-    font-size: 17px;
-    line-height: 27px; } }
-
-.about .data .aboutMe .bold {
-  font-weight: 700; }
-
-.about .data .personalInfo {
-  display: flex;
-  justify-content: space-between;
-  width: 50%; }
-
-@media (max-width: 768px) {
+    font-family: "Jost";
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0; }
+    @media (max-width: 768px) {
+      .about .data .aboutMe {
+        font-size: 17px;
+        line-height: 27px; } }
+    .about .data .aboutMe .bold {
+      font-weight: 700; }
   .about .data .personalInfo {
-    flex-direction: column; } }
-
-.about .data .personalInfo .info {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 50px; }
-
-@media (max-width: 768px) {
-  .about .data .personalInfo .info {
-    height: 40px;
-    margin: 15px 0; } }
-
-.about .data .personalInfo .info .key {
-  font-family: "Baloo Paaji 2", cursive; }
-
-.about .data .personalInfo .info .value {
-  font-weight: 300; }
-
-.about .data .socials {
-  display: flex;
-  justify-content: space-between;
-  width: 30%; }
-
-@media (max-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    width: 50%; }
+    @media (max-width: 768px) {
+      .about .data .personalInfo {
+        flex-direction: column; } }
+    .about .data .personalInfo .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 50px; }
+      @media (max-width: 768px) {
+        .about .data .personalInfo .info {
+          height: 40px;
+          margin: 15px 0; } }
+      .about .data .personalInfo .info .key {
+        font-family: "Baloo Paaji 2", cursive; }
+      .about .data .personalInfo .info .value {
+        font-weight: 300; }
   .about .data .socials {
-    width: 100%; } }
-
-.about .data .socials a {
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #a7a7a7;
-  transition: all 0.4s ease-in-out; }
-
-.about .data .socials .linkedin:hover {
-  color: #2867b2; }
-
-.about .data .socials .facebook:hover {
-  color: #3b5998; }
-
-.about .data .socials .github {
-  font-size: 36px; }
-
-.about .data .socials .github:hover {
-  color: #24292e; }
-
-.about .data .socials .instagram:hover {
-  color: #833ab4; }
-
-.about .data .socials .dropbox:hover {
-  color: #0061ff; }
+    display: flex;
+    justify-content: space-between;
+    width: 30%; }
+    @media (max-width: 768px) {
+      .about .data .socials {
+        width: 100%; } }
+    .about .data .socials a {
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #a7a7a7;
+      transition: all 0.4s ease-in-out; }
+    .about .data .socials .linkedin:hover {
+      color: #2867b2; }
+    .about .data .socials .facebook:hover {
+      color: #3b5998; }
+    .about .data .socials .github {
+      font-size: 36px; }
+      .about .data .socials .github:hover {
+        color: #24292e; }
+    .about .data .socials .instagram:hover {
+      color: #833ab4; }
+    .about .data .socials .dropbox:hover {
+      color: #0061ff; }

@@ -1,0 +1,23 @@
+@import "../../Styles/Variables.scss";
+
+.projects {
+  position: relative;
+  height: auto;
+  overflow: visible;
+  min-height: 100vh;
+
+  .container {
+    width: 63%;
+    display: unset;
+
+    .data {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+
+      @media (max-width: 768px) {
+        grid-template-columns: auto;
+      }
+    }
+  }
+}
